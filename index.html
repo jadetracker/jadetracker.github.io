@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade Tracker</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff00ff, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .schedule-container {
+            background: linear-gradient(to right, #ff00ff, #9400d3, #4b0082, #0000ff, #00ff00, #ffff00, #ff7f00, #ff0000);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            max-width: 80%;
+	    align-items: center;
+	    width: 50%;
+        }
+
+        h1, p, iframe {
+            margin: 0;
+            padding: 10px;
+            color: #fff;
+        }
+
+        iframe {
+            border: 2px solid #fff;
+            border-radius: 10px;
+            width: 100%;
+            height: 500px;
+            box-sizing: border-box;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+	    color: transparent;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="schedule-container">
+        <h1>Jade Tracker</h1>
+        <iframe src="https://calendar.google.com/calendar/embed?src=2204f9c0b0522026bc3b7e55ded25bed20fb9a6ed24d8478173b0fd9f71ba049%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
